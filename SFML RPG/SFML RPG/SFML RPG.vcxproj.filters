@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Sprites">
+      <UniqueIdentifier>{d18d0b38-f7c7-4663-ad01-e3e171abacc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sprites\Player">
+      <UniqueIdentifier>{1273caf8-3e90-452d-9134-9feba319fb01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sprites">
+      <UniqueIdentifier>{151cd7a2-21ee-4759-9f60-5440c1ced13b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sprites\Tiles">
+      <UniqueIdentifier>{31da841b-c9c3-46ad-a721-f3374101709e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Configs">
+      <UniqueIdentifier>{6c40f67b-5185-4d40-b8c0-8de31087862c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PLAY_SCREEN">
+      <UniqueIdentifier>{76902a5e-b3a2-4d1d-a80c-932d5dfb42ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sprites\UI">
+      <UniqueIdentifier>{66cc6fa4-103d-4cc5-9331-8a6ea9ee11e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\PLAY_SCREEN</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Source Files\PLAY_SCREEN</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hotbar.cpp">
+      <Filter>Source Files\PLAY_SCREEN</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Source Files\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source Files\PLAY_SCREEN</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Source Files\PLAY_SCREEN</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hotbar.h">
+      <Filter>Source Files\PLAY_SCREEN</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="boy_down_1.png">
+      <Filter>Resource Files\Sprites\Player</Filter>
+    </Image>
+    <Image Include="boy_down_2.png">
+      <Filter>Resource Files\Sprites\Player</Filter>
+    </Image>
+    <Image Include="boy_left_1.png">
+      <Filter>Resource Files\Sprites\Player</Filter>
+    </Image>
+    <Image Include="boy_left_2.png">
+      <Filter>Resource Files\Sprites\Player</Filter>
+    </Image>
+    <Image Include="boy_right_1.png">
+      <Filter>Resource Files\Sprites\Player</Filter>
+    </Image>
+    <Image Include="boy_right_2.png">
+      <Filter>Resource Files\Sprites\Player</Filter>
+    </Image>
+    <Image Include="boy_up_1.png">
+      <Filter>Resource Files\Sprites\Player</Filter>
+    </Image>
+    <Image Include="boy_up_2.png">
+      <Filter>Resource Files\Sprites\Player</Filter>
+    </Image>
+    <Image Include="earth.png">
+      <Filter>Resource Files\Sprites\Tiles</Filter>
+    </Image>
+    <Image Include="grass.png">
+      <Filter>Resource Files\Sprites\Tiles</Filter>
+    </Image>
+    <Image Include="sand.png">
+      <Filter>Resource Files\Sprites\Tiles</Filter>
+    </Image>
+    <Image Include="tree.png">
+      <Filter>Resource Files\Sprites\Tiles</Filter>
+    </Image>
+    <Image Include="wall.png">
+      <Filter>Resource Files\Sprites\Tiles</Filter>
+    </Image>
+    <Image Include="water.png">
+      <Filter>Resource Files\Sprites\Tiles</Filter>
+    </Image>
+    <Image Include="Hotbar.png">
+      <Filter>Resource Files\Sprites\UI</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="windowConfig.ini">
+      <Filter>Resource Files\Configs</Filter>
+    </None>
+  </ItemGroup>
+</Project>
